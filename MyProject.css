@@ -1,0 +1,256 @@
+*{  box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin:0 auto; 
+    width: 1440px; 
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(./PIC/BACK.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    
+}
+.head{
+    
+    position: relative;
+    display: block;
+    margin: auto;
+    font-size: 55px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns:[]75px[]auto []auto[]auto[]auto;
+    background-color: aqua;
+    border-radius:  90px 0px 0px 90px;
+    text-align: center;
+    width: auto;
+    height: auto;
+   }
+.meny{color: #000;
+    text-decoration: none;}
+    
+.meny:hover{
+    color: #852573;
+    box-shadow: 0px 10px 0px #852573;}
+
+.home {
+    border: #835c7c;  
+    padding: 15px 16px ;
+    background-color: aqua;
+    border-radius: 90px;
+    box-shadow: 10px 10px 10px #181817
+    }
+
+.home:hover{background-color: #835c7c9d;
+    
+}
+.wrapper{
+    
+    width: auto;
+    margin: auto;
+   }
+
+
+/*первая страница*/
+.ipic{text-align: center;
+}
+.pic1{
+    margin-left:auto;
+    margin-right: auto;
+    padding: auto;
+    position:absolute;
+    width: auto;
+    height: 100%;
+}
+
+.vers{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    margin: 25px 800px 300px 75px;
+}
+
+.vers:hover{color: #852573;}
+.creat{
+    margin: 90px 800px 300px 75px;
+}
+.hum{
+    margin: 0px 800px 300px 75px;
+}
+
+
+.line{position: absolute;
+    margin: 250px 50px 200px 700px;
+    top: 300px;}
+h2{ 
+    position: absolute;}
+h2:hover{ 
+    color: #00ffff;
+    position: absolute;
+    font-size: 150px;}
+/*вторая страница*/
+.cont2{
+    width: 1400px;
+    height: auto;
+}
+.pic2 {
+
+    position:absolute;
+   
+    width: auto;
+    margin: auto;
+    height: 700px;
+    
+    
+}
+
+.aboutmeH{
+    
+    margin: 0px 0px 0px 80px;
+    font-size: 150px;
+    
+}
+
+.aboutme{
+    margin:0px 100px 200px 600px;
+    font-size:30px;
+}
+
+.ME{
+    margin: 0px 0px 0px 250px;
+    position: absolute;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: 130px;
+}
+
+.ME:hover{color:#00ffff;}
+    
+/* третья страница */
+
+
+.swiper {
+    margin: 120px 200px 300px 200px ;
+    padding: 500px;
+    width: 800px;
+    height: 400px;
+    border-radius: 60px;
+  }
+
+
+/* четвертая страница */
+.HH3{color: #ffffff;
+    position: absolute;
+font-size: 50px;
+margin: 50px 150px 500px 40px;}
+.HH3:hover{color: #852573; /* Меняем цвет текста */
+    -webkit-text-shadow: 2px 2px 2px #0e0e0e;
+    -moz-text-shadow: 2px 2px 2px #0e0e0e;
+        text-shadow: 2px 2px 2px #0e0e0e;}
+
+.project { margin-top: 150px;
+    margin-left: 140px;
+    margin-right: 100px;}
+
+    .picPR1 {position: static;
+        margin:  30px 5px 5px 5px;
+        border: 9px solid  #00ffff;
+        border-radius: 15px;
+        
+    }
+    .picPR1:hover{position: static;
+        
+        border: 9px solid #852573 ;}
+    
+    .picPR2 {position: static;
+        margin:  30px 5px 5px 5px;
+        border: 9px solid  #00ffff;
+        border-radius: 15px;
+        
+    }
+    .picPR2:hover{position: static;
+        
+        border: 9px solid #852573 ;}
+    
+    .picPR3 {position: static;
+         margin:  30px 5px 5px 5px;
+        border: 9px solid  #00ffff;
+        border-radius: 15px;
+        
+    }
+    .picPR3:hover{position: static;
+        
+        border: 9px solid #852573 ;}
+    
+    .picPR4 {position: static;
+        margin: 30px 5px 5px 5px;
+        border: 9px solid  #00ffff;
+        border-radius: 15px;
+        
+    }
+    .picPR4:hover{position: static;
+        
+        border: 9px solid #852573;}
+
+.line4{position: absolute; 
+    margin-left: 300px;    
+    margin: 150px 70px 20px 800px;}
+
+
+
+/* пятая страница*/
+
+
+.git{padding: 30px 30px 30px 30px ;
+    border-radius:  60px 0px 60px 0px;
+    background-color: #00ffff;
+    margin-top:85px ;
+    margin-left: 420px;
+    margin-right: auto;
+    position: absolute;
+    font-size: 60px;
+    color: #852573;
+    text-align: center;}
+
+.git:hover{
+    background-color:#852573;
+}
+.contact1{ 
+    padding: 0px 30px 0px 30px ;
+    border-radius: 60px 0px 60px 0px;
+    background-color: #00ffff;
+    margin-top:400px ;
+    margin-left: 200px;
+    margin-right: auto;
+    position: absolute;
+    font-size: 60px;
+    color: #852573;
+    text-align: center;}
+
+.contact1:hover{ 
+    font-size: 75px;
+}
+.contact{ 
+    padding: 0px 20px 0px 20px ;
+    border-radius: 60px 0px 60px 0px;
+    background-color: #00ffff;
+    margin-top:350px ;
+    margin-left: 380px;
+    margin-right: auto;
+    position: absolute;
+    font-size: 30px;
+    color: #852573;
+    text-align: center;}
+
+
+.picCont {
+    
+    display: table;
+    margin: 0px 0px 0px 600px;
+    padding: auto;
+    padding: auto;
+    position:absolute;
+    width: auto;
+    height: 100%;
+}
